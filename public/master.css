@@ -421,6 +421,11 @@ p {
     margin: 0 auto;
 }
 
+strong {
+    font-family: 'Raleway', sans-serif;
+    color: #cf6472;
+}
+
 .thoughts {
     display: inline-grid;
     grid-template-columns: 450px auto;
