@@ -427,121 +427,17 @@ strong {
 
 img {
     width: 100px;
+    box-shadow: 0 3px 15px 10px rgba(36, 36, 36, 0.3);
+    border-radius:100px;
 }
 
-@media only screen and (min-width: 960px) {
-    .grid {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 10px 40px;
-        max-width: 960px;
-        padding-bottom:20px;
-    }
-
-    .col2 {
-        grid-column: span 2 / auto;
-    }
-    p {
-        text-align: left;
-        padding: 0;
-    }
-    h3 {
-        padding: 0;
-    }
-    h4 {
-        padding-bottom: 10px;
-    }
-}
-
-@media only screen and (min-width: 768px) {
-    .grid {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 10px 40px;
-        max-width: 768px;
-        padding-bottom: 20px;
-    }
-    .col2 {
-        grid-column: span 2 / auto;
-    }
-    p {
-        text-align: left;
-        padding: 0;
-    }
-    h3 {
-        padding: 0;
-    }
-    h4 {
-        padding-bottom: 10px;
-    }
-}
-
-@media only screen and (max-width: 960px) {
-    .thoughts {
-        display: inline-grid;
-        grid-template-columns: auto;
-    }
-    .post {
-        max-width: 350px;
-        min-height: 130px;
-        padding: 10px;
-    }
-    
-    h4 {
-        padding-top: 20px;
-        font-size: 0.9rem;
-    }
-}
-
-.thoughts {
-    display: inline-grid;
-    grid-template-columns: 450px auto;
-    grid-column-gap: 10px;
-    grid-row-gap: 24px;
-}
-
-.post {
-    padding: 10px;
-    border: none;
-    background: rgb(80, 80, 80);
-    box-shadow: 0 3px 5px 0px rgba(36, 36, 36, 0.219);
-    border-radius: 5px;
-    display: grid;
-    margin: 0;
-    width: 420px;
-    height: 130px;
-    -webkit-transition: all .4s cubic-bezier(.77, 0, .175, 1);
-    transition: all .4s cubic-bezier(.77, 0, .175, 1);
-}
-
-.post:hover {
-    padding: 10px;
-    border: none;
-    background: rgb(80, 80, 80);
-    box-shadow: 0 3px 15px 10px rgba(36, 36, 36, 0.219);
-    -webkit-transition: all .4s cubic-bezier(.77, 0, .175, 1);
-    transition: all .4s cubic-bezier(.77, 0, .175, 1);
-    border-radius: 5px;
-    display: grid;
-    margin: 0;
-}
-
-.postText {
-    padding-top: 0;
-    padding-bottom: 10px;
-    margin-top: -35px;
-    line-height: 1.3em;
-    font-weight: 200;
-    font-size: 14px;
-    text-align: center;
-    color: #fff;
-    text-transform: none;
+span {
+    line-height: 1.4rem;
 }
 
 strong {
     font-weight: 700;
 }
-
 
 a {
     text-decoration: none;
@@ -551,8 +447,7 @@ a {
     padding: 12px 53px 12px 23px;
     color: #4A4A4A;
     text-transform: uppercase;
-    font-family: 'Montserrat',
-    sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     position: relative;
     -moz-transition: all 0.3s;
@@ -595,27 +490,118 @@ a .round i {
     transition: all 0.3s;
 }
 
+@media only screen and (min-width: 960px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px 40px;
+        max-width: 960px;
+        padding-bottom:20px;
+        margin: 0 40px 0 40px;
+    }
+
+    .col2 {
+        grid-column: span 2 / auto;
+    }
+    p {
+        text-align: left;
+        padding: 0;
+    }
+    h3 {
+        padding-bottom: 15px;
+    }
+    div {
+        display: inline;
+    }
+    section {
+        padding-bottom:10px;
+    }
+}
+
+.main {
+    padding: 10px, 0, 20px, 0;
+}
+
+.thoughts {
+    display: inline-grid;
+    grid-template-columns: 450px auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 24px;
+}
+
+@media only screen and (max-width: 960px) {
+    .thoughts {
+        display: inline-grid;
+        grid-template-columns: auto;
+    }
+    .post {
+        max-width: 350px;
+        min-height: 130px;
+        padding: 10px;
+    }
+    
+    h4 {
+        font-size: 0.9rem;
+        padding-top: 20px;
+    }
+}
+
+.post {
+    padding: 10px;
+    border: none;
+    background: rgb(80, 80, 80);
+    box-shadow: 0 3px 5px 0px rgba(36, 36, 36, 0.219);
+    border-radius: 5px;
+    display: grid;
+    margin: 0;
+    width: 420px;
+    height: 130px;
+    -webkit-transition: all .4s cubic-bezier(.77, 0, .175, 1);
+    transition: all .4s cubic-bezier(.77, 0, .175, 1);
+}
+
+.post:hover {
+    padding: 10px;
+    border: none;
+    background: rgb(80, 80, 80);
+    box-shadow: 0 3px 15px 10px rgba(36, 36, 36, 0.219);
+    -webkit-transition: all .4s cubic-bezier(.77, 0, .175, 1);
+    transition: all .4s cubic-bezier(.77, 0, .175, 1);
+    border-radius: 5px;
+    display: grid;
+    margin: 0;
+}
+
+.postText {
+    padding-top: 0;
+    padding-bottom: 10px;
+    margin-top: -35px;
+    line-height: 1.3em;
+    font-weight: 200;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    text-transform: none;
+}
+
 .header {
     position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
     background: rgb(74, 74, 74);
-    /*-webkit-backdrop-filter: blur(20px);*/
-    z-index: 1000;
+    z-index: 10;
     height: 200px;
     overflow: hidden;
     -webkit-transition: height 0.4s;
     -moz-transition: height 0.4s;
     transition: height 0.4s;
     line-height: 10px;
+    padding: 0%;
 }
 
 .header.shrink {
     height: 55px;
     line-height: 5px;
     box-shadow: 0 3px 5px 0px rgba(36, 36, 36, 0.219);
-    background: rgba(80, 80, 80, 1/*0.3*/);
     -webkit-transition: all 0.4s;
     -moz-transition: all 0.4s;
     transition: all 0.4s;
@@ -649,14 +635,24 @@ a .round i {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(80, 80, 80, 1/*0.3*/);
-    /*-webkit-backdrop-filter: blur(20px);*/
+    background: rgba(80, 80, 80);
     box-shadow: 0px 3px 5px 3px rgba(36, 36, 36, 0.219);
     margin: 0;
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 0.8em;
-    z-index: 1000;
+    z-index: 10;
+}
+
+@supports (-webkit-backdrop-filter: blur(30px)) {
+    .header {
+        -webkit-backdrop-filter: blur(30px);
+        background: rgba(74, 74, 74, 0.3);
+    }
+    .footer {
+        -webkit-backdrop-filter: blur(30px);
+        background: rgba(80, 80, 80, 0.3);
+    }
 }
 
 .spanText {
@@ -665,7 +661,7 @@ a .round i {
     font-weight: 200;
 }
 
-.p_green {
+.green {
     color: #64CFB1;
     font-weight: 500;
     text-transform: uppercase;
