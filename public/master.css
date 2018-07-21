@@ -495,8 +495,6 @@ a .round i {
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 10px 40px;
         max-width: 960px;
-        padding-bottom:20px;
-        margin: 0 40px 0 40px;
     }
 
     .col2 {
@@ -509,11 +507,18 @@ a .round i {
     h3 {
         padding-bottom: 15px;
     }
+    h4 {
+        padding-bottom: 0;
+    }
     div {
         display: inline;
     }
     section {
         padding-bottom:10px;
+    }
+    .main {
+        margin-top: 0;
+        padding: 0;
     }
 }
 
