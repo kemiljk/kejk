@@ -578,7 +578,7 @@ a .round i {
 .post:hover {
     padding: 10px;
     border: none;
-    background: rgb(80, 80, 80);
+    background: rgb(83, 83, 83);
     box-shadow: 0 3px 15px 10px rgba(36, 36, 36, 0.219);
     -webkit-transition: all .4s cubic-bezier(.77, 0, .175, 1);
     transition: all .4s cubic-bezier(.77, 0, .175, 1);
