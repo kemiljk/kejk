@@ -559,6 +559,10 @@ a .round i {
         font-size: 0.9rem;
         padding-top: 20px;
     }
+
+    h5 {
+        font-size: 1.2rem;
+    }
 }
 
 .post {
