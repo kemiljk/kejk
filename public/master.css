@@ -359,10 +359,10 @@
       display: none;
   }
 
-  @import url('https://fonts.googleapis.com/css?family=Montserrat:200,400,500,600,700,800|Raleway:200,400,500,600,700,800');
+  @import url('https://fonts.googleapis.com/css?family=Montserrat:200,400,500,600,700,800|Work+Sans:100,200,300,400,500,600,700,800,900');
   html,
   body {
-      font-family: 'Raleway', sans-serif;
+      font-family: 'Work+Sans', sans-serif;
       font-size: 1rem;
       line-height: 1em;
       color: rgb(224, 224, 224);
@@ -396,7 +396,7 @@
   }
 
   h4 {
-      font-family: 'Raleway', sans-serif;
+      font-family: 'Work+Sans', sans-serif;
       font-weight: 600;
       color: #cf6472;
       line-height: 1em;
@@ -406,7 +406,7 @@
   }
 
   h5 {
-      font-family: 'Raleway', sans-serif;
+      font-family: 'Work+Sans', sans-serif;
       font-weight: 600;
       color: #cf6472;
       line-height: 0;
@@ -426,7 +426,7 @@
   }
 
   strong {
-      font-family: 'Raleway', sans-serif;
+      font-family: 'Work+Sans', sans-serif;
       color: #cf6472;
   }
 
@@ -617,7 +617,7 @@
 
   .spanText {
       font-size: 0.9em;
-      font-family: 'Raleway', sans-serif;
+      font-family: 'Work+Sans', sans-serif;
       font-weight: 200;
   }
 
