@@ -369,7 +369,7 @@ body {
 }
 
 h1 {
-  font-family: "Arvo", sans-serif;
+  font-family: "Montserrat", sans-serif;
   padding-top: 55px;
   padding-bottom: 15px;
   margin: 25px 0;
@@ -379,7 +379,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Arvo", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
   color: rgb(224, 224, 224);
   line-height: 1em;
@@ -387,7 +387,7 @@ h2 {
 }
 
 h3 {
-  font-family: "Arvo", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   color: #cf9264;
   line-height: 1em;
@@ -452,7 +452,7 @@ a {
   padding: 12px 53px 12px 23px;
   color: #4a4a4a;
   text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-weight: 700;
   position: relative;
   -moz-transition: all 0.3s;
