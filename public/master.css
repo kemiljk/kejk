@@ -395,7 +395,7 @@ h3 {
 }
 
 h4 {
-  font-family: "Work Sans", sans-serif;
+  font-family: "Karla", sans-serif;
   font-weight: 600;
   color: #cf6472;
   line-height: 1em;
@@ -405,7 +405,7 @@ h4 {
 }
 
 h5 {
-  font-family: "Work Sans", sans-serif;
+  font-family: "Karla", sans-serif;
   font-weight: 600;
   color: #cf6472;
   line-height: 0;
@@ -415,7 +415,7 @@ h5 {
 }
 
 p {
-  font-family: "Work Sans", sans-serif;
+  font-family: "Karla", sans-serif;
   padding-top: 0;
   line-height: 1.3em;
   font-weight: 300;
@@ -426,7 +426,7 @@ p {
 }
 
 strong {
-  font-family: "Work Sans", sans-serif;
+  font-family: "Karla", sans-serif;
   color: #cf6472;
 }
 
@@ -452,7 +452,7 @@ a {
   padding: 12px 53px 12px 23px;
   color: #4a4a4a;
   text-transform: uppercase;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Karla", sans-serif;
   font-weight: 700;
   position: relative;
   -moz-transition: all 0.3s;
