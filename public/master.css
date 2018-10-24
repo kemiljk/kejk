@@ -418,7 +418,7 @@ p {
   font-family: "Karla", sans-serif;
   padding-top: 0;
   line-height: 1.3em;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 16px;
   margin: 0;
   padding-left: 30px;
@@ -623,7 +623,7 @@ a .round i {
 
 .green {
   color: #64cfb1;
-  font-weight: 500;
+  font-weight: 700;
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
   font-size: 1em;
