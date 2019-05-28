@@ -703,8 +703,7 @@ a .round i {
   }
   p {
     text-align: left;
-    padding-left: 50px;
-    padding-right: 50px;
+    max-width: 80vw;
   }
   h2 {
     padding: 0, 20px, 0, 20px;
