@@ -384,6 +384,7 @@ h2 {
   color: rgb(224, 224, 224);
   line-height: 1.25em;
   padding: 15px;
+  max-width: 75vw;
 }
 
 h3 {
