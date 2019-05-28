@@ -750,6 +750,9 @@ a .round i {
     min-height: 100px;
     padding: 10px;
   }
+  p {
+    min-width: 80vw;
+  }
   h4 {
     font-size: 0.9rem;
     line-height: 1.1rem;
@@ -771,6 +774,9 @@ a .round i {
     max-width: 280px;
     min-height: 90px;
     padding: 10px;
+  }
+  p {
+    min-width: 80vw;
   }
   p.postText {
     margin-top: -25px;
