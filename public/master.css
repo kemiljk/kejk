@@ -732,7 +732,7 @@ a .round i {
     grid-template-columns: auto;
   }
   p {
-    max-width: 960px;
+    max-width: 850px;
   }
   h4 {
     font-size: 0.9rem;
@@ -754,14 +754,12 @@ a .round i {
     min-height: 100px;
     padding: 10px;
   }
-  p {
-    min-width: 80vw;
-  }
   h4 {
     font-size: 0.9rem;
     line-height: 1.1rem;
     padding-top: 5px;
-    padding-bottom: 10px;
+    max-width: 300px;
+    margin-bottom: 40px;
   }
   h5 {
     font-size: 1.2rem;
@@ -789,6 +787,7 @@ a .round i {
   }
   h4 {
     padding: 10px;
+    margin-bottom: 20px;
   }
   h5 {
     font-size: 0.95rem;
