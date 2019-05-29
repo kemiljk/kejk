@@ -712,10 +712,14 @@ ul {
     display: inline-grid;
     grid-template-columns: auto;
   }
+  h3 {
+    text-align: center;
+  }
   h4 {
-    font-size: 0.9rem;
+    font-size: 1.15rem;
     padding-top: 5px;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
+    text-align: center;
   }
   h5 {
     font-size: 1.2rem;
@@ -738,11 +742,15 @@ ul {
   p {
     min-width: 80vw;
   }
+  h3 {
+    text-align: center;
+  }
   h4 {
-    font-size: 0.9rem;
-    line-height: 1.1rem;
+    font-size: 1.15rem;
+    line-height: 1.25rem;
     padding-top: 5px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
+    text-align: center;
   }
   h5 {
     font-size: 1.2rem;
@@ -757,6 +765,7 @@ ul {
   .thoughts {
     display: inline-grid;
     grid-template-columns: auto;
+    
   }
   .post {
     max-width: 280px;
@@ -765,6 +774,9 @@ ul {
   }
   img {
     max-width: 280px;
+  }
+  h3 {
+    text-align: center;
   }
   p {
     min-width: 80vw;
