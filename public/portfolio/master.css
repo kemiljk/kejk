@@ -516,7 +516,7 @@ ul {
 .post {
   padding: 10px;
   border: none;
-  background: rgb(80, 80, 80);
+  background: #505050;
   box-shadow: 0 3px 5px 0px rgba(36, 36, 36, 0.219);
   border-radius: 5px;
   display: inline;
