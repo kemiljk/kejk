@@ -498,6 +498,7 @@ a .round i {
 
 .main {
   margin-top: 20px;
+  max-width: 860px;
 }
 
 .thoughts {
@@ -729,6 +730,9 @@ a .round i {
   .thoughts {
     display: inline-grid;
     grid-template-columns: auto;
+  }
+  p {
+    max-width: 960px;
   }
   h4 {
     font-size: 0.9rem;
