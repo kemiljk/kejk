@@ -732,6 +732,9 @@ ul {
     min-height: 100px;
     padding: 10px;
   }
+  img {
+    max-width: 360px;
+  }
   p {
     min-width: 80vw;
   }
@@ -759,6 +762,9 @@ ul {
     max-width: 280px;
     min-height: 90px;
     padding: 10px;
+  }
+  img {
+    max-width: 280px;
   }
   p {
     min-width: 80vw;
