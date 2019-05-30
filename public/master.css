@@ -733,6 +733,8 @@ a .round i {
   }
   p {
     max-width: 850px;
+    padding-top: 0;
+    padding-bottom: 0;
   }
   h4 {
     font-size: 0.9rem;
