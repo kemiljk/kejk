@@ -530,7 +530,7 @@ ul {
 .header {
   position: fixed;
   width: 100%;
-  background: rgb(74, 74, 74);
+  background: #4a4a4a;
   z-index: 10;
   height: 200px;
   overflow: hidden;
@@ -599,7 +599,7 @@ ul {
 
 .spanText {
   font-size: 0.9em;
-  font-family: " ", sans-serif;
+  font-family: "Karla", sans-serif;
   font-weight: 200;
 }
 
