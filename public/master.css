@@ -361,7 +361,7 @@ template {
 
 html,
 body {
-  font-family: " ", sans-serif;
+  font-family: "Karla", sans-serif;
   font-size: 1rem;
   line-height: 1em;
   background-color: #f6f7f8;
@@ -403,7 +403,7 @@ p {
   font-size: 16px;
   margin: 10px;
   padding: 20px;
-  max-width: 50vw;
+  width: 50vw;
 }
 
 img {
@@ -651,14 +651,14 @@ a .round i {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px 40px;
-    max-width: 960px;
+    width: 50vw;
   }
   .col2 {
     grid-column: span 2 / auto;
   }
   p {
     text-align: left;
-    max-width: 80vw;
+    width: 50vw;
     padding-top: 0;
     padding-bottom: 0;
   }
@@ -688,7 +688,7 @@ a .round i {
     grid-template-columns: auto;
   }
   p {
-    max-width: 850px;
+    width: 70vw;
     padding-top: 0;
     padding-bottom: 0;
   }

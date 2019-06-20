@@ -361,7 +361,7 @@ template {
 
 html,
 body {
-  font-family: " ", sans-serif;
+  font-family: "Karla", sans-serif;
   font-size: 1rem;
   line-height: 1em;
   background-color: #f6f7f8;
@@ -413,11 +413,6 @@ p {
   font-size: 16px;
   margin: 0px;
   padding: 10px;
-  max-width: 75vw;
-}
-
-img {
-  box-shadow: 0 3px 15px 10px rgba(36, 36, 36, 0.3);
 }
 
 a {
@@ -425,6 +420,7 @@ a {
   -moz-border-radius: 30px;
   -webkit-border-radius: 30px;
   border-radius: 30px;
+  box-shadow: 0 3px 15px 10px rgba(36, 36, 36, 0.1);
   padding: 12px 53px 12px 23px;
   color: #4a4a4a;
   text-transform: uppercase;
@@ -491,7 +487,6 @@ ul {
   padding: 10px;
   border: none;
   background: #fff;
-  box-shadow: 0 5px 35px 0px rgba(36, 36, 36, 0.5);
   border-radius: 5px;
   display: inline;
   margin: 0;
