@@ -361,12 +361,13 @@ template {
 
 html,
 body {
-  font-family: "Karla", sans-serif;
+  font-family: " ", sans-serif;
   font-size: 1rem;
   line-height: 1em;
-  color: rgb(224, 224, 224);
-  background-color: #4a4a4a;
+  background-color: ##f6f7f8;
+  color: #4a4a4a;
 }
+
 
 h1 {
   font-family: "Montserrat", sans-serif;
@@ -378,7 +379,7 @@ h1 {
 h2 {
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
-  color: #e0e0e0;
+  color: #4a4a4a;
   line-height: 1.25em;
   padding: 15px;
   max-width: 75vw;
@@ -387,7 +388,7 @@ h2 {
 h4 {
   font-family: "Karla", sans-serif;
   font-weight: 700;
-  color: #64cfb1;
+  color: #4a4a4a;
   line-height: 1em;
   padding: 0;
   margin-top: 12px;
@@ -476,7 +477,7 @@ a .round i {
 .post {
   padding: 10px;
   border: none;
-  background: rgb(80, 80, 80);
+  background: rgb(255, 255, 255);
   box-shadow: 0 3px 5px 0px rgba(36, 36, 36, 0.219);
   border-radius: 5px;
   display: grid;
@@ -490,8 +491,8 @@ a .round i {
 .post:hover {
   padding: 10px;
   border: none;
-  background: rgb(83, 83, 83);
-  box-shadow: 0 3px 15px 10px rgba(36, 36, 36, 0.219);
+  background: #fcfcfc;
+  box-shadow: 0 3px 15px 10px rgba(36, 36, 36, 0.1);
   -webkit-transition: all 0.4s cubic-bezier(0.77, 0, 0.175, 1);
   transition: all 0.4s cubic-bezier(0.77, 0, 0.175, 1);
   border-radius: 5px;
@@ -502,7 +503,7 @@ a .round i {
 .header {
   position: fixed;
   width: 100%;
-  background: rgb(74, 74, 74);
+  background: rgb(255, 255, 255);
   z-index: 10;
   height: 200px;
   overflow: hidden;
@@ -529,7 +530,7 @@ a .round i {
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
   font-size: 135px;
-  color: #64cfb1;
+  color: #4a4a4a;
 }
 
 .header.shrink h1 {
@@ -549,7 +550,7 @@ a .round i {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(80, 80, 80);
+  background: rgb(255, 255, 255);
   box-shadow: 0px 3px 5px 3px rgba(36, 36, 36, 0.219);
   margin: 0;
   padding-top: 10px;
@@ -561,11 +562,11 @@ a .round i {
 @supports (-webkit-backdrop-filter: blur(30px)) {
   .header {
     -webkit-backdrop-filter: blur(30px);
-    background: rgba(74, 74, 74, 0.3);
+    background: rgba(255, 255, 255, 0.3);
   }
   .footer {
     -webkit-backdrop-filter: blur(30px);
-    background: rgba(80, 80, 80, 0.3);
+    background: rgba(255, 255, 255, 0.3);
   }
 }
 
@@ -612,11 +613,11 @@ a .round i {
 }
 
 .btn-4 {
-  background-color: #fff;
+  background-color: #4a4a4a;
 }
 
 .btn-4 .round {
-  background-color: rgb(238, 238, 238);
+  background-color: #979797;
 }
 
 .type-1 {
