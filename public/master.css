@@ -503,7 +503,7 @@ a .round i {
 .header {
   position: fixed;
   width: 100%;
-  background: rgb(255, 255, 255);
+  background: #f6f7f8;
   z-index: 10;
   height: 200px;
   overflow: hidden;
@@ -550,7 +550,7 @@ a .round i {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgb(255, 255, 255);
+  background: #f6f7f8;
   box-shadow: 0px 3px 5px 3px rgba(36, 36, 36, 0.219);
   margin: 0;
   padding-top: 10px;
