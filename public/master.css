@@ -562,11 +562,11 @@ a .round i {
 @supports (-webkit-backdrop-filter: blur(30px)) {
   .header {
     -webkit-backdrop-filter: blur(30px);
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.5);
   }
   .footer {
     -webkit-backdrop-filter: blur(30px);
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.5);
   }
 }
 
