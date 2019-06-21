@@ -769,3 +769,66 @@ ul {
     font-size: 1.15em;
   }
 }
+
+/* Sausage Links Nav Container */
+.nav {
+  box-shadow: none;
+  text-decoration: none;
+  list-style: none;
+  border: 1px solid #c4c4c4;
+  padding: 10px 20px 10px 20px;
+}
+
+.nav:hover {
+  box-shadow: none;
+  background-color: #e0f7f0;
+}
+
+.sausage-links {
+  position: inline;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 11;
+  width: 100vw;
+}
+
+/* The left and right "faded" pseudo elements */
+.sausage-links:before,
+.sausage-links:after {
+  content: '';
+  height: calc(100% - 2em);
+  pointer-events: none;
+  position: absolute;
+  width: 1em;
+  z-index: 2;
+}
+
+.sausage-links:before {
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, white 100%);
+  right: 0;
+}
+
+.sausage-links:after {
+  background: linear-gradient(to left, rgba(255, 255, 255, 0) 0%, white 100%);
+  left: 0;
+}
+
+/* Basic flexbox to prevent items from breaking lines */
+.sausage-links ul {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.sausage-links ul li {
+  white-space: nowrap;
+  list-style: none;
+}
+
+.sausage-links ul li a,
+.sausage-links ul li a:visited {
+  display: inline-block;
+  margin-left: 8px;
+}
