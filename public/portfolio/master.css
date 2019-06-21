@@ -799,7 +799,7 @@ ul {
   display: flex;
   flex-wrap: nowrap;
   overflow: auto;
-  height:50px;
+  height:60px;
   -webkit-overflow-scrolling: touch;
 }
 
