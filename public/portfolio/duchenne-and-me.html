@@ -106,6 +106,12 @@
 				and as such aren’t aware of specific difficulties such as easy fracturing of bones
 				or limited lung capacity when put on ventilators.
 			</p>
+			<p>
+				One of the biggest problems for the parents and carers is that they had many different ways to track and record information. Healthcare providers offered paper-based forms and leaflets for the parent to hand to emergency staff as required but in a panic situation like this, it's unlikely that they'll remember to bring this.
+			</p>
+			<p>
+				When it came to tracking important information, parents varied in what they did but most often they'd either just not write anything down, note it into their phone or, in one case, use an excel spreadsheet to track this information to share with their doctor.
+			</p>
 			<h3>WHAT MIGHT THEY NEED?</h3>
 			<p> All parents in our research group agreed that some kind of application was ideal for
 				keeping on top of things both in and out of the home. As they, and their children,
@@ -168,6 +174,15 @@
 					<li>Medication (for reminders and accurate dosing)</li>
 					<li>Help (for frequently asked questions, delivered as a sql-based chat bot)</li>
 				</ul>
+				<p>
+					We worked extremely closely with one stakeholder throughout the entire journey of the app. As a parent of a child with Duchenne, a person with experience in the tech industry and patient advocate running one of the disease awareness websites, he was an ideal person to have on board.
+				</p>
+				<p>
+					Throughout the process, he helped us to ensure we were always keeping the child and carers best interest at heart. It could have been very easy to lose site (a first prototype involved AR overlays to encourage the child to complete walking tests but this ultimately proved to be overkill and unnecessary) but working with our advocate meant we could stick to what was most important.
+				</p>
+				<p>
+					Ultimately, when we finally delivered the app his feedback was glowing and in direct conversation with the client he stressed his love of it, his desire to continue to support us into V2 and beyond and that he believed this app added value beyond just Duchenne.
+				</p>
 				<h4>Platform</h4>
 				<p>In order to deliver something scalable and cross-platform we opted for an app that
 					we could deploy through Appcelerator to iOS and Android. This meant we needed to focus on JavaScript
@@ -175,6 +190,7 @@
 					translations.
 				</p>
 				<h4>CHALLENGES</h4>
+				<p><strong>Version 1</strong></p>
 				<p>
 					Our initial version 1 rollout was a major challenge. Due to the size of our company, we were required to outsource the development work and as such trusted our supplier to guide us on technologies. We needed a true cross-platform approach and thus required a language that scaled both. The suggestion from our supplier was to build in Lua, a lesser known gaming language that can be compiled into phone apps via Cordova. Due to the time constraints and trust, we went with their recommendation. 
 				</p>
@@ -184,7 +200,20 @@
 				<p>
 					Fortunately, the app did compile via Cordova, work, and get approved across the iOS and Google Play stores with a day to spare before launch. As this was being launched at our client's patient advocacy conference, the hard deadline was not moveable. It also coincided with Rare Disease Day which gave our client the opportunity to push for press releases and major announcements in the world of pharmaceuticals and rare disease.
 				</p>
-				<p><a href="https://www.actionduchenne.org/ptc-therapeutics-marks-rare-disease-day-2018-with-duchenne-and-me-app/"><span style="margin-left: 2rem;">Press release</span></a></p>
+				<p><strong>A sql problem</strong></p>
+				<p>
+					When it came to migrating to version 2 we realised a very serious problem right at the end of the process. We'd had to move suppliers due to the previous headache and were building this new version in JavaScript and compiling via Appcelerator. Overall, the app was much faster, more dynamic and had been given a nice visual facelift.
+				</p>
+				<p>
+					We noticed during final testing however, that we had a problem with migration. Each existing user would need to update to version 2, but version 2 was built in an entirely different way with a differently structured sql database and some new features. And we weren't entirely sure what would happen when a user chose to update.
+				</p>
+				<p>
+					After lots of discussion and stress, we realised that we could re-upload version 1 to TestFlight and force a migration to version 2 through there on test devices, guaranteeing what a user would be able to pull across safely.
+				</p>
+				<p>
+					After days of testing and interation, we finally got a version to work correctly and pull all important data through. This meant we were ready to push version 2 live and could do this on time for the next most important day in a Duchenne team's calendar, World Duchenne Awareness Day.
+				</p>
+				<p><a href="https://www.actionduchenne.org/ptc-therapeutics-marks-rare-disease-day-2018-with-duchenne-and-me-app/" target="_new"><span style="margin-left: 2rem;">Press release</span></a></p>
 				<h4>Rollout</h4>
 				<p>Duchenne and Me is currently live in 3 countries; the UK, Germany and Turkey, and
 					is due to go live in several other countries in the coming months. Reception so far
