@@ -788,20 +788,9 @@ ul {
   position: inline;
   top: 0;
   left: 0;
+  right: 0;
   bottom: 0;
   z-index: 11;
-  width: 100vw;
-}
-
-/* The left and right "faded" pseudo elements */
-.sausage-links:before,
-.sausage-links:after {
-  content: '';
-  height: calc(100% - 2em);
-  pointer-events: none;
-  position: absolute;
-  width: 1em;
-  z-index: 2;
 }
 
 /* Basic flexbox to prevent items from breaking lines */
