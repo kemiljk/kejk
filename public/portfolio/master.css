@@ -804,16 +804,6 @@ ul {
   z-index: 2;
 }
 
-.sausage-links:before {
-  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, white 100%);
-  right: 0;
-}
-
-.sausage-links:after {
-  background: linear-gradient(to left, rgba(255, 255, 255, 0) 0%, white 100%);
-  left: 0;
-}
-
 /* Basic flexbox to prevent items from breaking lines */
 .sausage-links ul {
   display: flex;
