@@ -577,7 +577,7 @@ a .round i {
 }
 
 .green {
-  color: #64cfb1;
+  color: #2c6151;
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
@@ -589,11 +589,11 @@ a .round i {
 }
 
 .btn-1 {
-  background-color: #64cfb1;
+  background-color: #2c6151;
 }
 
 .btn-1 .round {
-  background-color: rgb(124, 233, 202);
+  background-color: #3eac8d;
 }
 
 .btn-2 {
@@ -628,6 +628,7 @@ a .round i {
 .txt {
   font-size: 14px;
   line-height: 1.45;
+  color: #fff;
 }
 
 .type-1 a:hover {
@@ -688,7 +689,7 @@ a .round i {
     grid-template-columns: auto;
   }
   p {
-    width: 70vw;
+    width: 90vw;
     padding-top: 0;
     padding-bottom: 0;
   }
@@ -711,6 +712,9 @@ a .round i {
     max-width: 360px;
     min-height: 60px;
     padding: 10px;
+  }
+  p {
+    width: 90vw;
   }
   h4 {
     font-size: 0.9rem;
@@ -737,6 +741,9 @@ a .round i {
     max-width: 280px;
     min-height: 60px;
     padding: 10px;
+  }
+  p {
+    width: 90vw;
   }
   h4 {
     padding: 10px;
