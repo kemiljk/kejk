@@ -510,7 +510,7 @@ ul {
   position: fixed;
   width: 100%;
   background: #f6f7f8;
-  z-index: 10;
+  z-index: 9999;
   height: 200px;
   overflow: hidden;
   -webkit-transition: height 0.4s;
@@ -562,7 +562,7 @@ ul {
   padding-top: 10px;
   padding-bottom: 20px;
   font-size: 0.8em;
-  z-index: 10;
+  z-index: 9999;
 }
 
 @supports (-webkit-backdrop-filter: blur(30px)) {
