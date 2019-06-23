@@ -491,8 +491,8 @@ ul {
 .thoughts {
   display: inline-grid;
   grid-template-columns: 450px auto;
-  grid-column-gap: 10px;
-  grid-row-gap: 24px;
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
 }
 
 .post {
