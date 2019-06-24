@@ -804,8 +804,8 @@ ul {
   -webkit-overflow-scrolling: touch;
 }
 
-.sausage-links ul::after {
-  content: '';
+.sausage-links ul li :last-child {
+  margin-right: 8px;
 }
 
 .sausage-links ul li {
