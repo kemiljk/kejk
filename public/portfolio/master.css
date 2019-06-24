@@ -423,7 +423,7 @@ a {
   -moz-border-radius: 30px;
   -webkit-border-radius: 30px;
   border-radius: 30px;
-  box-shadow: 0 3px 15px 10px rgba(36, 36, 36, 0.1);
+  /*box-shadow: 0 3px 15px 10px rgba(36, 36, 36, 0.1);*/
   padding: 12px 53px 12px 23px;
   color: #4a4a4a;
   text-transform: uppercase;
@@ -443,7 +443,7 @@ a span {
 }
 
 a:hover {
-  box-shadow: 0 3px 15px 10px rgba(58, 58, 58, 0.2);
+  box-shadow: 0px 0px 15px 0px rgba(58, 58, 58, 0.1);
   position: relative;
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
@@ -489,7 +489,6 @@ ul {
 }
 
 
-
 .thoughts {
   display: inline-grid;
   grid-template-columns: 450px auto;
@@ -500,12 +499,15 @@ ul {
 .post {
   padding: 10px;
   border: none;
-  background: #fff;
+  background: rgb(255, 255, 255);
+  /*box-shadow: 0 0px 5px 0px rgba(36, 36, 36, 0.219);*/
   border-radius: 10px;
-  display: inline;
+  display: grid;
   margin: 0;
   width: 420px;
   height: auto;
+  /*-webkit-transition: all 0.4s cubic-bezier(0.77, 0, 0.175, 1);
+  transition: all 0.4s cubic-bezier(0.77, 0, 0.175, 1);*/
 }
 
 .header {
