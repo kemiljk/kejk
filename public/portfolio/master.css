@@ -618,6 +618,10 @@ ul {
 .type-1 {
   padding-top: 30px;
   padding-bottom: 30px;
+  display: inline-grid;
+  grid-template-columns: 130px auto;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
 }
 
 .txt {
