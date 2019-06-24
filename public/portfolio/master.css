@@ -713,7 +713,7 @@ ul {
     max-width: 360px;
   }
   p {
-    min-width: 80vw;
+    max-width: 85vw;
   }
   h3 {
     text-align: center;
