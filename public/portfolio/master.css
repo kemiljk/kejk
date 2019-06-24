@@ -732,6 +732,14 @@ ul {
   .subhead {
     font-size: 1.15em;
   }
+  .sausage-links ul {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: auto;
+    height:60px;
+    min-width: 80vw;
+    -webkit-overflow-scrolling: touch;
+  }
 }
 
 @media only screen and (max-width: 320px) {
