@@ -385,6 +385,16 @@ h2 {
   font-size: 2em;
 }
 
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #4a4a4a;
+  line-height: 1.25em;
+  padding: 10px;
+  max-width: 75vw;
+  font-size: 1.5em;
+}
+
 h4 {
   font-family: "Karla", sans-serif;
   font-weight: 700;
@@ -538,7 +548,7 @@ a .round i {
 
 .spanText {
   font-size: 0.9em;
-  font-family: " ", sans-serif;
+  font-family: "Karla", sans-serif;
   font-weight: 200;
 }
 
@@ -589,6 +599,10 @@ a .round i {
 .type-1 {
   padding-top: 30px;
   padding-bottom: 30px;
+  display: inline-grid;
+  grid-template-columns: 130px auto;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
 }
 
 .txt {
