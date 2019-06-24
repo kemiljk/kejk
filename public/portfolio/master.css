@@ -697,14 +697,6 @@ ul {
   h5 {
     font-size: 1.2rem;
   }
-  .sausage-links ul {
-    display: flex;
-    flex-wrap: nowrap;
-    overflow: auto;
-    height: 60px;
-    min-width: 80vw;
-    -webkit-overflow-scrolling: touch;
-  }
 }
 
 @media only screen and (max-width: 414px) {
@@ -739,14 +731,6 @@ ul {
   }
   .subhead {
     font-size: 1.15em;
-  }
-  .sausage-links ul {
-    display: flex;
-    flex-wrap: nowrap;
-    overflow: auto;
-    height:60px;
-    min-width: 80vw;
-    -webkit-overflow-scrolling: touch;
   }
 }
 
@@ -818,6 +802,10 @@ ul {
   height:60px;
   min-width: 90vw;
   -webkit-overflow-scrolling: touch;
+}
+
+.sausage-links ul::after {
+  content: '';
 }
 
 .sausage-links ul li {
