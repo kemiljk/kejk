@@ -371,9 +371,8 @@ body {
 
 h1 {
   font-family: "Montserrat", sans-serif;
-  padding-top: 55px;
-  padding-bottom: 15px;
-  margin: 25px 0;
+  padding-top: 20px;
+  margin: 0;
 }
 
 h2 {
@@ -504,46 +503,12 @@ a .round i {
 .header {
   position: fixed;
   width: 100%;
-  background: #f6f7f8;
-  z-index: 10;
-  height: 200px;
-  overflow: hidden;
-  -webkit-transition: height 0.4s;
-  -moz-transition: height 0.4s;
-  transition: height 0.4s;
-  line-height: 10px;
-  padding: 0%;
-}
-
-.header.shrink {
   height: 55px;
-  line-height: 5px;
-  box-shadow: 0 3px 5px 0px rgba(36, 36, 36, 0.219);
-  -webkit-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-  transition: all 0.4s;
-}
-
-.header h1 {
-  -webkit-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-  transition: all 0.4s;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 800;
-  font-size: 135px;
-  color: #4a4a4a;
-}
-
-.header.shrink h1 {
-  font-size: 34px;
-  -webkit-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-  transition: all 0.4s;
-  padding: 0;
-}
-
-.header.shrink h2 {
-  display: none;
+  background: #f6f7f8;
+  box-shadow: 0px 3px 5px 3px rgba(36, 36, 36, 0.219);
+  margin: 0;
+  font-size: 0.8em;
+  z-index: 9999;
 }
 
 .footer {
