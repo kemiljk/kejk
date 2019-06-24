@@ -385,6 +385,16 @@ h2 {
   font-size: 2em;
 }
 
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #4a4a4a;
+  line-height: 1.25em;
+  padding: 10px;
+  max-width: 75vw;
+  font-size: 1.5em;
+}
+
 h4 {
   font-family: "Karla", sans-serif;
   font-weight: 700;
@@ -403,7 +413,7 @@ p {
   font-size: 1.25em;
   margin: 10px;
   padding: 20px;
-  width: 50vw;
+  width: 60vw;
 }
 
 img {
@@ -492,7 +502,7 @@ a .round i {
   padding: 10px;
   border: none;
   background: #fcfcfc;
-  box-shadow: 0 px 15px 0px rgba(36, 36, 36, 0.1);
+  box-shadow: 0px 0px 15px 10px rgba(161, 161, 161, 0.1);
   -webkit-transition: all 0.4s cubic-bezier(0.77, 0, 0.175, 1);
   transition: all 0.4s cubic-bezier(0.77, 0, 0.175, 1);
   border-radius: 10px;
@@ -538,7 +548,7 @@ a .round i {
 
 .spanText {
   font-size: 0.9em;
-  font-family: " ", sans-serif;
+  font-family: "Karla", sans-serif;
   font-weight: 200;
 }
 
@@ -589,6 +599,10 @@ a .round i {
 .type-1 {
   padding-top: 30px;
   padding-bottom: 30px;
+  display: inline-grid;
+  grid-template-columns: 130px auto;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
 }
 
 .txt {
@@ -625,7 +639,7 @@ a .round i {
   }
   p {
     text-align: left;
-    width: 50vw;
+    width: 60vw;
     padding-top: 0;
     padding-bottom: 0;
   }
