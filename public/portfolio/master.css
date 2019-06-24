@@ -800,7 +800,7 @@ ul {
   flex-wrap: nowrap;
   overflow: auto;
   height:60px;
-  min-width: 100vw;
+  min-width: 90vw;
   -webkit-overflow-scrolling: touch;
 }
 
