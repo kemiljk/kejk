@@ -705,7 +705,7 @@ ul {
   .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px 40px;
+    grid-gap: 10px 10px;
     max-width: 960px;
   }
   .col2 {
@@ -776,7 +776,7 @@ ul {
   }
   .post {
     max-width: 360px;
-    min-height: 100px;
+    min-height: auto;
     padding: 10px;
   }
   img {
