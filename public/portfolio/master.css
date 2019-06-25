@@ -687,6 +687,8 @@ ul {
   .thoughts {
     display: inline-grid;
     grid-template-columns: auto;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
   }
   h3 {
     text-align: left;
@@ -714,6 +716,8 @@ ul {
   .thoughts {
     display: inline-grid;
     grid-template-columns: auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
   }
   .post {
     max-width: 360px;
@@ -750,7 +754,8 @@ ul {
   .thoughts {
     display: inline-grid;
     grid-template-columns: auto;
-    
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
   }
   .post {
     max-width: 280px;
