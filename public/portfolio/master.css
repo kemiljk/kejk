@@ -741,6 +741,9 @@ ul {
     font-size: 1.2rem;
     padding-top: 10px;
   }
+  .wide {
+  width: 80vw;
+  }
 }
 
 @media only screen and (max-width: 320px) {
@@ -777,6 +780,9 @@ ul {
   }
   .header h1 {
     font-size: 110px;
+  }
+   .wide {
+  width: 80vw;
   }
 }
 
