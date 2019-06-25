@@ -792,8 +792,9 @@ ul {
   text-decoration: none;
   list-style: none;
   border: 1px solid #c4c4c4;
-  padding: 8 16px 8px 16px;
+  padding: 8px 16px 8px 16px;
   background-color:#fff;
+  font-size: 1.15em;
 }
 
 .nav:hover {
@@ -819,6 +820,7 @@ ul {
 .sausage-links ul li {
   white-space: nowrap;
   list-style: none;
+  
 }
 
 .sausage-links ul li a,
