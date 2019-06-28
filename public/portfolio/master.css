@@ -868,7 +868,7 @@ ul {
   }
   h4 {
     font-size: 1.5rem;
-    line-height: 1.25rem;
+    line-height: 1.15rem;
     padding-top: 5px;
     padding-bottom: 5px;
     text-align: center;
@@ -915,9 +915,9 @@ ul {
   img {
     max-width: 280px;
   }
-h1 {
-  max-width: 80vw;
-}
+  h1 {
+    max-width: 80vw;
+  }
   h3 {
     text-align: center;
   }
