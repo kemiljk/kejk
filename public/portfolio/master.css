@@ -403,6 +403,7 @@ h3 {
   text-align: left;
   margin-bottom: 5px;
   font-size: 1.75em;
+  max-width: 60vw;
 }
 
 h4 {
@@ -808,8 +809,8 @@ ul {
     max-width: 85vw;
   }
   h4 {
-    font-size: 1.25rem;
     font-size: 1.5rem;
+    line-height: 1.15rem;
     padding-top: 5px;
     padding-bottom: 0px;
     text-align: center;
