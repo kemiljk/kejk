@@ -809,8 +809,8 @@ ul {
     max-width: 85vw;
   }
   h4 {
-    font-size: 1.5rem;
-    line-height: 1.15rem;
+    font-size: 1.5em;
+    line-height: 1.15em;
     padding-top: 5px;
     padding-bottom: 0px;
     text-align: center;
@@ -867,8 +867,8 @@ ul {
     max-width: 85vw;
   }
   h4 {
-    font-size: 1.5rem;
-    line-height: 1.15rem;
+    font-size: 1.5em;
+    line-height: 1.25em;
     padding-top: 5px;
     padding-bottom: 5px;
     text-align: center;
@@ -926,11 +926,11 @@ ul {
   }
   p.postText {
     margin-top: -25px;
-    font-size: 0.8rem;
+    font-size: 0.8em;
     padding: 0;
   }
   h5 {
-    font-size: 0.95rem;
+    font-size: 0.95em;
     padding-top: 10px;
   }
   .header {
