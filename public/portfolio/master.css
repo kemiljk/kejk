@@ -857,6 +857,9 @@ ul {
   p {
     min-width: 85vw;
   }
+  h1 {
+    max-width: 85vw;
+  }
   h3 {
     text-align: left;
     max-width: 85vw;
@@ -910,6 +913,9 @@ ul {
   img {
     max-width: 280px;
   }
+h1 {
+  max-width: 80vw;
+}
   h3 {
     text-align: center;
   }
