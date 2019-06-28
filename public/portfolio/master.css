@@ -369,13 +369,19 @@ body {
 }
 
 h1 {
-  font-family: "Montserrat", sans-serif;
-  padding-top: 20px;
+  font-family: "Karla", sans-serif;
+  padding-top: 40px;
+  padding-bottom:20px;
   margin: 0;
+  font-weight: 700;
+  color: #4a4a4a;
+  line-height: 1em;
+  max-width: 65vw;
+  font-size: 2.5em;
 }
 
 h2 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Karla", sans-serif;
   font-weight: 900;
   color: #4a4a4a;
   line-height: 1.1em;
@@ -389,7 +395,7 @@ h2 {
 }
 
 h3 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Karla", sans-serif;
   font-weight: 900;
   color: #4a4a4a;
   line-height: 1em;
@@ -408,7 +414,6 @@ h4 {
   padding: 10px;
   margin-top: 12px;
   margin-bottom: 5px;
-  text-transform: uppercase;
   text-align: left;
 }
 
@@ -431,7 +436,6 @@ a {
   /*box-shadow: 0 3px 15px 10px rgba(36, 36, 36, 0.1);*/
   padding: 12px 53px 12px 23px;
   color: #4a4a4a;
-  text-transform: uppercase;
   font-family: "Karla", sans-serif;
   font-weight: 700;
   position: relative;
@@ -539,6 +543,13 @@ ul {
   grid-row-gap: 50px;
 }
 
+.thoughtsSmall {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
 .post {
   padding: 10px;
   border: none;
@@ -548,6 +559,19 @@ ul {
   display: grid;
   margin: 0;
   width: 420px;
+  height: auto;
+  /*-webkit-transition: all 0.4s cubic-bezier(0.77, 0, 0.175, 1);
+  transition: all 0.4s cubic-bezier(0.77, 0, 0.175, 1);*/
+}
+.postSmall {
+  padding: 10px;
+  border: none;
+  background: rgb(255, 255, 255);
+  /*box-shadow: 0 0px 5px 0px rgba(36, 36, 36, 0.219);*/
+  border-radius: 10px;
+  display: grid;
+  margin: 0;
+  width: 175px;
   height: auto;
   /*-webkit-transition: all 0.4s cubic-bezier(0.77, 0, 0.175, 1);
   transition: all 0.4s cubic-bezier(0.77, 0, 0.175, 1);*/
@@ -589,6 +613,17 @@ ul {
   margin: 0;
   font-size: 0.8em;
   z-index: 9999;
+}
+
+.header h1 {
+  font-family: "Montserrat";
+  padding-top: 0;
+  margin: 0;
+  font-weight: 700;
+  color: #4a4a4a;
+  line-height: auto;
+  max-width: 75vw;
+  font-size: 2.5em;
 }
 
 .footer {
