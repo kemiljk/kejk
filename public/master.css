@@ -380,9 +380,10 @@ h1 {
   font-family: "Karla", sans-serif;
   padding-top: 20px;
   margin: 0;
+  margin-bottom: 40px;
   font-weight: 700;
   color: #4a4a4a;
-  line-height: auto;
+  line-height: 1em;
   max-width: 75vw;
   font-size: 2.5em;
 }
@@ -414,6 +415,8 @@ h4 {
   line-height: 1em;
   padding: 0 12px 0 12px;
   margin: auto;
+  padding-bottom: 0;
+  max-width: 60vw;
 }
 
 p {
@@ -423,8 +426,8 @@ p {
   font-weight: 400;
   font-size: 1.25em;
   margin: 10px;
-  padding: 20px;
   width: 60vw;
+  text-align: left;
 }
 
 img {
@@ -647,49 +650,13 @@ a .round i {
   left: 12%;
 }
 
-@media only screen and (min-width: 960px) {
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px 40px;
-    width: 50vw;
-  }
-  .col2 {
-    grid-column: span 2 / auto;
-  }
-  p {
-    text-align: left;
-    width: 60vw;
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-  h2 {
-    padding: 0, 20px, 0, 20px;
-  }
-  h3 {
-    padding-bottom: 15px;
-  }
-  h4 {
-    padding-bottom: 0;
-  }
-  div {
-    display: inline;
-  }
-  h5 {
-    font-size: 1.2rem;
-  }
-  .main {
-    margin-top: 0;
-  }
-}
-
 @media only screen and (max-width: 960px) {
   .thoughts {
     display: inline-grid;
     grid-template-columns: auto;
   }
   p {
-    width: 90vw;
+    width: 70vw;
     padding-top: 0;
     padding-bottom: 0;
   }

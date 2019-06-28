@@ -371,12 +371,12 @@ body {
 h1 {
   font-family: "Karla", sans-serif;
   padding-top: 40px;
-  padding-bottom:20px;
+  padding-bottom: 20px;
   margin: 0;
   font-weight: 700;
   color: #4a4a4a;
   line-height: 1em;
-  max-width: 65vw;
+  max-width: 55vw;
   font-size: 2.5em;
 }
 
@@ -415,6 +415,8 @@ h4 {
   margin-top: 12px;
   margin-bottom: 5px;
   text-align: left;
+  padding-bottom: 0;
+  max-width: 60vw;
 }
 
 p {
@@ -426,6 +428,7 @@ p {
   margin: 0px;
   padding: 10px;
   width: 60vw;
+  text-align: left;
 }
 
 a {
@@ -776,34 +779,6 @@ ul {
   left: 12%;
 }
 
-@media only screen and (min-width: 960px) {
-  p {
-    text-align: left;
-    max-width: 60vw;
-  }
-  h2 {
-    padding: 0, 20px, 0, 20px;
-  }
-  h3 {
-    padding: 0;
-    max-width: 60vw;
-  }
-  h4 {
-    padding-bottom: 0;
-    max-width: 60vw;
-  }
-  div {
-    display: inline;
-  }
-  h5 {
-    font-size: 1.2rem;
-  }
-  .main {
-    margin-top: 0;
-  }
-}
-
-
   @media only screen and (max-width: 960px) {
   .thoughts {
     display: inline-grid;
@@ -840,10 +815,6 @@ ul {
   }
   h5 {
     font-size: 1.2rem;
-  }
-  p {
-    text-align: left;
-    min-width: 85vw;
   }
   ul {
     max-width: 70vw;
