@@ -426,7 +426,7 @@ p {
   font-weight: 400;
   font-size: 1.25em;
   margin: 10px;
-  width: 60vw;
+  max-width: 880px;
   text-align: left;
 }
 
@@ -656,7 +656,7 @@ a .round i {
     grid-template-columns: auto;
   }
   p {
-    width: 70vw;
+    width: 80vw;
     padding-top: 0;
     padding-bottom: 0;
   }

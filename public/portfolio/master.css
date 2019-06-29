@@ -403,7 +403,7 @@ h3 {
   text-align: left;
   margin-bottom: 5px;
   font-size: 1.75em;
-  max-width: 60vw;
+  width: 880px;
 }
 
 h4 {
@@ -417,7 +417,11 @@ h4 {
   margin-bottom: 5px;
   text-align: left;
   padding-bottom: 0;
-  max-width: 60vw;
+  width: 880px;
+}
+
+.title {
+  text-align: center;
 }
 
 p {
@@ -428,7 +432,7 @@ p {
   font-size: 1.25em;
   margin: 0px;
   padding: 10px;
-  width: 60vw;
+  width: 880px;
   text-align: left;
 }
 
@@ -804,6 +808,11 @@ ul {
     width: 175px;
     height: auto;
   }
+p {
+  width: 85vw;
+  padding-top: 0;
+  padding-bottom: 0;
+}
   h3 {
     text-align: left;
     max-width: 85vw;
@@ -813,10 +822,7 @@ ul {
     line-height: 1.15em;
     padding-top: 5px;
     padding-bottom: 0px;
-    text-align: center;
-  }
-  h5 {
-    font-size: 1.2rem;
+    width: 85vw;
   }
   ul {
     max-width: 70vw;
@@ -856,27 +862,6 @@ ul {
   img {
     max-width: 360px;
   }
-  p {
-    min-width: 85vw;
-  }
-  h1 {
-    max-width: 85vw;
-  }
-  h3 {
-    text-align: left;
-    max-width: 85vw;
-  }
-  h4 {
-    font-size: 1.5em;
-    line-height: 1.25em;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    text-align: center;
-  }
-  h5 {
-    font-size: 1.2rem;
-    padding-top: 10px;
-  }
   .wide {
   width: 80vw;
   }
@@ -914,15 +899,6 @@ ul {
   }
   img {
     max-width: 280px;
-  }
-  h1 {
-    max-width: 80vw;
-  }
-  h3 {
-    text-align: center;
-  }
-  p {
-    min-width: 80vw;
   }
   p.postText {
     margin-top: -25px;
