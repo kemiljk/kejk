@@ -733,7 +733,7 @@ ul {
 }
 
 .greenSmall:hover {
-  background: #efefef;
+  background: none;
   box-shadow: none;
 }
 
