@@ -761,7 +761,7 @@ ul {
   }
   h3 {
     text-align: left;
-    max-width: 85vw;
+    max-width: 80vw;
   }
   h4 {
     font-size: 1.5em;
@@ -856,10 +856,6 @@ ul {
     margin-top: -25px;
     font-size: 0.8em;
     padding: 0;
-  }
-  h5 {
-    font-size: 0.95em;
-    padding-top: 10px;
   }
   .header {
     font-size: 15px;
