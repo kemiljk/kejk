@@ -558,8 +558,11 @@ a {
     display: inline-grid;
     grid-template-columns: auto;
   }
+  h1 {
+    max-width: 80vw;
+  }
   p {
-    width: 80vw;
+    max-width: 80vw;
     padding-top: 0;
     padding-bottom: 0;
   }
@@ -584,8 +587,11 @@ a {
     padding: 10px;
     margin: 0;
   }
+  h1 {
+    max-width: 80vw;
+  }
   p {
-    width: 85vw;
+    max-width: 85vw;
   }
   h4 {
     font-size: 0.9rem;
@@ -613,6 +619,9 @@ a {
     min-height: 60px;
     padding: 10px;
     margin: 0;
+  }
+  h1 {
+    max-width: 80vw;
   }
   p {
     width: 85vw;

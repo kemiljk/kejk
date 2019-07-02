@@ -748,11 +748,17 @@ ul {
     width: 175px;
     height: auto;
   }
-p {
-  width: 85vw;
-  padding-top: 0;
-  padding-bottom: 0;
-}
+  .wide {
+    width: 85vw;
+  }
+  h1 {
+    max-width: 80vw;
+  }
+  p {
+    max-width: 80vw;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
   h3 {
     text-align: left;
     max-width: 85vw;
@@ -762,7 +768,8 @@ p {
     line-height: 1.15em;
     padding-top: 5px;
     padding-bottom: 0px;
-    width: 85vw;
+    max-width: 80vw;
+    text-align: left;
   }
   ul {
     max-width: 70vw;
@@ -782,7 +789,9 @@ p {
       grid-column-gap: 20px;
       grid-row-gap: 20px;
     }
-
+    .wide {
+      width: 85vw;
+    }
     .postSmall {
       padding: 10px;
       border: none;
