@@ -529,9 +529,9 @@ ul {
 
 .thoughts {
   display: inline-grid;
-  grid-template-columns: 450px auto;
-  grid-column-gap: 50px;
-  grid-row-gap: 50px;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
 }
 
 .thoughtsSmall {
@@ -549,7 +549,7 @@ ul {
   border-radius: 10px;
   display: grid;
   margin: 0;
-  width: 420px;
+  width: 360px;
   height: auto;
   /*-webkit-transition: all 0.4s cubic-bezier(0.77, 0, 0.175, 1);
   transition: all 0.4s cubic-bezier(0.77, 0, 0.175, 1);*/
