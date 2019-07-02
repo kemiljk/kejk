@@ -457,6 +457,10 @@ a {
   display: inline-block;
 }
 
+.bottomLinks {
+  text-decoration: underline;
+}
+
 a span {
   position: relative;
   z-index: 3;

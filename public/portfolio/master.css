@@ -470,6 +470,18 @@ a:hover {
   z-index: 999;
 }
 
+.bottomLinks {
+  text-decoration: underline;
+}
+
+.bottomLinks:hover {
+  box-shadow: inherit;
+  -moz-transition: inherit;
+  -o-transition: inherit;
+  -webkit-transition: inherit;
+  transition: inherit;
+}
+
 a .round {
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
