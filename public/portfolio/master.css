@@ -749,7 +749,7 @@ ul {
     height: auto;
   }
   .wide {
-    width: 85vw;
+    width: 90vw;
   }
   h1 {
     max-width: 80vw;
@@ -790,7 +790,7 @@ ul {
       grid-row-gap: 20px;
     }
     .wide {
-      width: 85vw;
+      width: 90vw;
     }
     .postSmall {
       padding: 10px;
