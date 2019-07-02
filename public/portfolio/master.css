@@ -846,6 +846,9 @@ ul {
     min-height: 90px;
     padding: 10px;
   }
+  .wide {
+    width: 90vw;
+  }
   img {
     max-width: 280px;
   }
