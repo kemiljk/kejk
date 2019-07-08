@@ -469,7 +469,8 @@ a:hover {
 
 .bottomLinks {
   text-decoration: underline;
-  width: 2%;
+  justify-content: left;
+  align-items: center;
 }
 
 .bottomLinks:hover {
@@ -551,8 +552,6 @@ ul {
   margin: 0;
   width: 360px;
   height: auto;
-  /*-webkit-transition: all 0.4s cubic-bezier(0.77, 0, 0.175, 1);
-  transition: all 0.4s cubic-bezier(0.77, 0, 0.175, 1);*/
 }
 .postSmall {
   padding: 10px;
@@ -564,8 +563,6 @@ ul {
   margin: 0;
   width: 175px;
   height: auto;
-  /*-webkit-transition: all 0.4s cubic-bezier(0.77, 0, 0.175, 1);
-  transition: all 0.4s cubic-bezier(0.77, 0, 0.175, 1);*/
 }
 
 .post:hover {
@@ -592,16 +589,16 @@ ul {
   height: auto;
 }
 
-.index:hover {
-  border-radius: none;
-  box-shadow: none;
-}
-
 .index {
   display: block;
   width: 80vw;
-  margin:0;
+  margin: auto;
   height: auto;
+}
+
+.index:hover {
+  border-radius: none;
+  box-shadow: none;
 }
 
 .title h1 {

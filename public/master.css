@@ -451,7 +451,16 @@ a {
 
 .bottomLinks {
   text-decoration: underline;
-  width: 2%;
+  justify-content: left;
+  align-items: center;
+}
+
+.bottomLinks:hover {
+  box-shadow: inherit;
+  -moz-transition: inherit;
+  -o-transition: inherit;
+  -webkit-transition: inherit;
+  transition: inherit;
 }
 
 .thoughts {
