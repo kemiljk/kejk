@@ -595,8 +595,6 @@ ul {
 .index:hover {
   border-radius: none;
   box-shadow: none;
-  padding:inherit;
-  margin:inherit;
 }
 
 .index {
