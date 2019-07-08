@@ -451,8 +451,13 @@ a {
 
 .bottomLinks {
   text-decoration: underline;
-  justify-content: left;
-  align-items: center;
+}
+
+a.bottomLinks {
+  margin: 0;
+  padding: 10px 20px 10px 20px;
+  display: inline-grid;
+  grid-template-columns: 1fr;
 }
 
 .bottomLinks:hover {

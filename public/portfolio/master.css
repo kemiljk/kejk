@@ -467,10 +467,34 @@ a:hover {
   z-index: 999;
 }
 
+.topLinks {
+  text-decoration: underline;
+}
+
+a.topLinks {
+  margin: 0;
+  padding: 10px 30px 10px 30px;
+  display: inline-grid;
+  grid-template-columns: 1fr;
+}
+
+.topLinks:hover {
+  box-shadow: inherit;
+  -moz-transition: inherit;
+  -o-transition: inherit;
+  -webkit-transition: inherit;
+  transition: inherit;
+}
+
 .bottomLinks {
   text-decoration: underline;
-  justify-content: left;
-  align-items: center;
+}
+
+a.bottomLinks {
+  margin: 0;
+  padding: 10px 20px 10px 20px;
+  display: inline-grid;
+  grid-template-columns: 1fr;
 }
 
 .bottomLinks:hover {
@@ -546,7 +570,6 @@ ul {
   padding: 10px;
   border: none;
   background: rgb(255, 255, 255);
-  /*box-shadow: 0 0px 5px 0px rgba(36, 36, 36, 0.219);*/
   border-radius: 10px;
   display: grid;
   margin: 0;
@@ -557,7 +580,6 @@ ul {
   padding: 10px;
   border: none;
   background: rgb(255, 255, 255);
-  /*box-shadow: 0 0px 5px 0px rgba(36, 36, 36, 0.219);*/
   border-radius: 10px;
   display: grid;
   margin: 0;
@@ -814,6 +836,9 @@ ul {
     min-height: auto;
     padding: 10px;
   }
+  h1 {
+    font-size: 2.3em;
+  }
   img {
     max-width: 360px;
   }
@@ -854,6 +879,9 @@ ul {
   }
   .wide {
     width: 90vw;
+  }
+  h1 {
+    font-size: 2em;
   }
   img {
     max-width: 280px;
