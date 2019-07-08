@@ -585,19 +585,25 @@ ul {
   padding: 10px;
   border: none;
   background: rgb(255, 255, 255);
-  /*box-shadow: 0 0px 5px 0px rgba(36, 36, 36, 0.219);*/
   border-radius: 10px;
   display: grid;
   margin: 0;
   width: 60vw;
   height: auto;
-  /*-webkit-transition: all 0.4s cubic-bezier(0.77, 0, 0.175, 1);
-  transition: all 0.4s cubic-bezier(0.77, 0, 0.175, 1);*/
 }
 
 .index:hover {
   border-radius: none;
   box-shadow: none;
+  padding:inherit;
+  margin:inherit;
+}
+
+.index {
+  display: block;
+  width: 80vw;
+  margin:0;
+  height: auto;
 }
 
 .title h1 {
