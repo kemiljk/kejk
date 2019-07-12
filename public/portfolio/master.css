@@ -528,6 +528,13 @@ ul {
   padding-left: 1rem;
 }
 
+.list-checkmarks li:before {
+  font-family: 'FontAwesome';
+  content: "\f00c";
+  margin: 0 10px 0 -28px;
+  color: #2D6151;
+}
+
 .list-cross {
   padding-left: 1.5rem;
 }
@@ -535,13 +542,6 @@ ul {
 .list-cross li {
   list-style-type: none;
   padding-left: 1rem;
-}
-
-.list-checkmarks li:before {
-  font-family: 'FontAwesome';
-  content: "\f00c";
-  margin: 0 10px 0 -28px;
-  color: #2D6151;
 }
 
 .list-cross li:before {

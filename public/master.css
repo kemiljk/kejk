@@ -479,14 +479,11 @@ a.bottomLinks {
   padding: 10px;
   border: none;
   background: rgb(255, 255, 255);
-  /*box-shadow: 0 0px 5px 0px rgba(36, 36, 36, 0.219);*/
   border-radius: 10px;
   display: grid;
   margin: 0;
   width: 420px;
   height: 60px;
-  /*-webkit-transition: all 0.4s cubic-bezier(0.77, 0, 0.175, 1);
-  transition: all 0.4s cubic-bezier(0.77, 0, 0.175, 1);*/
 }
 
 .post:hover {
