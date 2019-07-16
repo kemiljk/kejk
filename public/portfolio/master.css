@@ -507,7 +507,7 @@ a.bottomLinks {
 
 ul {
   font-family: "Karla", sans-serif;
-  text-align: left; 
+  text-align: left;
   line-height: 1.15em;
   max-width: 50vw;
   font-size: 1.25em;
@@ -612,15 +612,21 @@ ul {
 }
 
 .index {
-  display: block;
-  width: 80vw;
-  margin: auto;
-  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 1em;
+  padding: auto;
+  max-width: 60%;
 }
 
 .index:hover {
   border-radius: none;
   box-shadow: none;
+}
+
+.index h2 {
+  text-align: center;
+  margin: auto;
 }
 
 .title h1 {
@@ -706,7 +712,6 @@ ul {
 .sausage-links ul li a:visited {
   display: inline-block;
   margin-left: 8px;
-  
 }
 
 @supports (-webkit-backdrop-filter: blur(30px)) {
@@ -779,6 +784,17 @@ ul {
   .wide {
     width: 90vw;
   }
+  .index {
+  display: inline-block;
+  max-width: 80vw;
+  margin-left: 5%;
+  padding-bottom: 2em;
+}
+
+.index:first-of-type {
+  padding-top: 2em;
+}
+
   h1 {
     max-width: 80vw;
   }
@@ -836,6 +852,12 @@ ul {
     min-height: auto;
     padding: 10px;
   }
+  .index {
+  display: inline-block;
+  justify-content: space-around;
+  max-width: 80vw;
+  margin-left: 0;
+}
   h1 {
     font-size: 2.3em;
   }
