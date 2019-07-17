@@ -376,7 +376,7 @@ h1 {
   font-weight: 700;
   color: #4a4a4a;
   line-height: 1em;
-  max-width: 55vw;
+  width: 55vw;
   font-size: 2.5em;
   text-align: left;
 }
@@ -657,6 +657,16 @@ ul {
   line-height: auto;
   max-width: 75vw;
   font-size: 2.5em;
+}
+
+.hero {
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.heroImg {
+  max-width: 100%;
+  height: auto;
 }
 
 .footer {
