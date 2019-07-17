@@ -615,7 +615,7 @@ ul {
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 1fr;
   padding: auto;
-  max-width: 880px;
+  max-width: 800px;
 }
 
 .index1:hover, .index2:hover, .index3:hover, .index4:hover {
