@@ -628,6 +628,7 @@ ul {
   grid-template-columns: 1fr;
   text-align: center;
   margin: auto;
+  padding-bottom: 0;
 }
 
 
@@ -810,11 +811,11 @@ ul {
     max-width: 70vw;
   }
   .index {
-display: grid;
-grid-template-columns: 1fr;
-grid-template-rows: 1fr 1fr 1fr 1fr;
-grid-column-gap: 0px;
-grid-row-gap: 1em;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
 }
 .index1 { grid-area: 1 / 1 / 2 / 2; }
 .index2 { grid-area: 2 / 1 / 3 / 2; }
