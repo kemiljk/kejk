@@ -701,7 +701,7 @@ ul {
 
 .nav:hover {
   box-shadow: none;
-  background-color: #dbe9e4;
+  background-color: #d3d3d3;
 }
 
 .sausage-links {
@@ -744,7 +744,7 @@ ul {
 }
 
 .green {
-  color: #2c6151;
+  color: #777;
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
@@ -760,7 +760,7 @@ ul {
   box-shadow: none;
 }
 .greenSmall {
-  color: #2c6151;
+  color: #777;
   font-weight: 700;
   font-family: "Karla", sans-serif;
   font-size: 1em;
