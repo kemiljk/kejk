@@ -505,6 +505,20 @@ a.bottomLinks {
   transition: inherit;
 }
 
+a.home {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+a.home:hover {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  background: none;
+  box-shadow: none;
+}
+
 ul {
   font-family: "Karla", sans-serif;
   text-align: left;
