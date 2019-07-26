@@ -554,6 +554,7 @@ a.bottomLinks {
 
 .green {
   color: #777;
+  border-radius: 0;
   font-weight: 700;
   font-family: "Karla", sans-serif;
   font-size: 1em;
@@ -561,6 +562,13 @@ a.bottomLinks {
   padding-top: 0;
   padding-bottom: 0;
   margin-top: 0;
+}
+
+.green:hover {
+  background: #777;
+  color: #f6f7f8;
+  border-radius: 0;
+  transform: translateX(5%);
 }
 
 
