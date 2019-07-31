@@ -554,13 +554,23 @@ a.bottomLinks {
 
 .green {
   color: #777;
+  border-radius: 0;
   font-weight: 700;
   font-family: "Karla", sans-serif;
   font-size: 1em;
   padding: 0;
-  padding-top: 0;
-  padding-bottom: 0;
-  margin-top: 0;
+  margin: 0;
+  display: inline-block;
+  border-bottom: 4px solid currentColor;
+}
+
+.green:hover {
+  background: #777;
+  color: #f6f7f8;
+  border-radius: 0;
+  transform: translateX(5%);
+  display: inline-block;
+  border-bottom: 4px solid #777;
 }
 
 
@@ -617,6 +627,9 @@ a.bottomLinks {
   }
   .subhead {
     font-size: 1.15em;
+  }
+  .footer {
+    padding-bottom: 1.5em;
   }
 }
 
