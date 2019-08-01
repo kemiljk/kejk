@@ -421,6 +421,15 @@ h4 {
   padding-bottom: 0;
 }
 
+.code {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.8em;
+  color: rgb(230, 86, 86);
+  background: #d8d8d8;
+  padding: 5px;
+  border-radius: 5px;
+}
+
 .title {
   text-align: center;
 }
