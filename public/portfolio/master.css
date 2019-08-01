@@ -842,14 +842,9 @@ ul {
   .index {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 1.5em;
-}
-.index1 { grid-area: 1 / 1 / 2 / 2; }
-.index2 { grid-area: 2 / 1 / 3 / 2; }
-.index3 { grid-area: 3 / 1 / 4 / 2; }
-.index4 { grid-area: 4 / 1 / 5 / 2; }
 }
 
 @media only screen and (max-width: 414px) {
