@@ -628,6 +628,9 @@ a.bottomLinks {
   .subhead {
     font-size: 1.15em;
   }
+  .footer {
+    padding-bottom: 1.5em;
+  }
 }
 
 @media only screen and (max-width: 320px) {
