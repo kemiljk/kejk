@@ -423,7 +423,7 @@ p {
 
 img {
   width: 100px;
-  box-shadow: 0 3px 15px 10px rgba(36, 36, 36, 0.3);
+  box-shadow: 0 3px 15px 10px rgba(36, 36, 36, 0.096);
   border-radius: 100px;
 }
 
@@ -475,6 +475,13 @@ a.bottomLinks {
   grid-row-gap: 10px;
 }
 
+.thoughtsSmall {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
 .post {
   padding: 10px;
   border: none;
@@ -484,6 +491,15 @@ a.bottomLinks {
   margin: 0;
   width: 420px;
   height: 60px;
+}
+
+.postSmall {
+  border: none;
+  border-radius: 10px;
+  display: grid;
+  margin: 0;
+  width: 175px;
+  height: auto;
 }
 
 .post:hover {
