@@ -421,12 +421,6 @@ p {
   text-align: left;
 }
 
-img {
-  width: 100px;
-  box-shadow: 0 3px 15px 10px rgba(36, 36, 36, 0.096);
-  border-radius: 100px;
-}
-
 strong {
   font-weight: 700;
 }
@@ -623,6 +617,23 @@ a.bottomLinks {
     min-height: 60px;
     padding: 10px;
     margin: 0;
+  }
+  .thoughtsSmall {
+    display: grid;
+    grid-template-columns: 185px 185px;
+    grid-template-rows: 1fr;
+    max-width: 414px;
+  }
+  .postSmall {
+    border: none;
+    border-radius: 10px;
+    max-width: 160px;
+    height: auto;
+    margin: 0;
+  }
+  img {
+  padding: 0;
+  margin:0;
   }
   h1 {
     max-width: 80vw;
