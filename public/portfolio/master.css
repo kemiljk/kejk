@@ -798,6 +798,11 @@ ul {
   box-shadow: none;
 }
 
+.role {
+  background: #777;
+  color: #f6f7f8;
+}
+
 @media only screen and (max-width: 960px) {
   .thoughts {
     display: inline-grid;
