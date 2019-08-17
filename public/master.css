@@ -618,9 +618,9 @@ a.bottomLinks {
     padding-bottom: 0;
   }
   h4 {
-    font-size: 0.9rem;
-    padding-top: 5px;
-    padding-bottom: 10px;
+    font-size: 1rem;
+    padding-top: 10px;
+    padding-bottom: 20px;
   }
   h5 {
     font-size: 1.2rem;
@@ -662,11 +662,9 @@ a.bottomLinks {
     max-width: 85vw;
   }
   h4 {
-    font-size: 0.9rem;
-    line-height: 1.1rem;
-    padding-top: 5px;
-    max-width: 300px;
-    margin-bottom: 40px;
+    font-size: 1rem;
+    padding-top: 0;
+    padding-bottom: 20px;
   }
   h5 {
     font-size: 1.2rem;
@@ -688,7 +686,6 @@ a.bottomLinks {
   .post {
     max-width: 280px;
     min-height: 60px;
-    padding: 10px;
     margin: 0;
   }
   h1 {
@@ -696,10 +693,6 @@ a.bottomLinks {
   }
   p {
     width: 85vw;
-  }
-  h4 {
-    padding: 10px;
-    margin-bottom: 20px;
   }
   h5 {
     font-size: 0.95rem;
