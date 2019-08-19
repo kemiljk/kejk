@@ -952,9 +952,30 @@ ul {
     font-size: 15px;
   }
   .header h1 {
-    font-size: 110px;
+    font-size: 2rem;
+    margin-left: -50px;
   }
   .wide {
     width: 80vw;
+  }
+  .index {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-column-gap: 1fr;
+  grid-row-gap: 2em;
+  padding: auto;
+  max-width: 90vw;
+  }
+  .index1, .index2, .index3, .index4, .index5, .index6 {
+  padding: 0;
+  border-radius: 0;
+  margin: auto;
+  width: 280px;
+  }
+  .index1>img, .index2>img, .index3>img, .index4>img, .index5>img, .index6>img {
+  height: auto;
+  margin: 0;
+  padding: 0;
+  width: 280px;
   }
 }
