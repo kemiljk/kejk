@@ -690,7 +690,7 @@ a.bottomLinks {
     margin: 0;
   }
   h1 {
-    max-width: 80vw;
+    width: 80vw;
   }
   p {
     width: 85vw;
@@ -703,7 +703,8 @@ a.bottomLinks {
     font-size: 15px;
   }
   .header h1 {
-    font-size: 110px;
+    font-size: 2rem;
+    margin-left: -40px;
   }
   .subhead {
     font-size: 1.15em;
