@@ -704,6 +704,7 @@ a.bottomLinks {
   }
   .header h1 {
     font-size: 2rem;
+    margin-left: -40px;
   }
   .subhead {
     font-size: 1.15em;
