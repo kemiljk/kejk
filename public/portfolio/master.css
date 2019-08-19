@@ -870,7 +870,7 @@ ul {
   }
   .thoughtsSmall {
     display: inline-grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-column-gap: 20px;
     grid-row-gap: 20px;
   }
@@ -913,7 +913,7 @@ ul {
   }
   .thoughtsSmall {
     display: inline-grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-column-gap: 20px;
     grid-row-gap: 20px;
   }
@@ -931,7 +931,7 @@ ul {
   }
   .post {
     max-width: 280px;
-    min-height: 90px;
+    max-height: auto;
     padding: 10px;
   }
   .wide {
