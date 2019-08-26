@@ -647,15 +647,15 @@ a.bottomLinks {
   grid-template-columns: auto;
 }
   .post {
-    max-width: 360px;
+    max-width: 340px;
     min-height: 60px;
     padding: 10px;
     margin: 0;
   }
   .thoughtsSmall {
-    display: grid;
-    grid-template-columns: 185px 185px;
-    grid-column-gap: 25px;
+    display: inline-grid;
+    grid-template-columns: 175px auto;
+    grid-column-gap: auto;
   }
   .postSmall {
     border: none;
