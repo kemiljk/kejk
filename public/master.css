@@ -701,6 +701,18 @@ a.bottomLinks {
     min-height: 60px;
     margin: 0;
   }
+  .thoughtsSmall {
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-column-gap: 0px;
+  }
+  .postSmall {
+    border: none;
+    border-radius: 10px;
+    max-width: 130px;
+    height: auto;
+    margin: 0;
+  }
   h1 {
     width: 80vw;
   }
