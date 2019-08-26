@@ -470,6 +470,14 @@ a.bottomLinks {
   grid-row-gap: 10px;
 }
 
+.music {
+  display: inline-grid;
+  grid-template-columns: 300px auto;
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  max-width: 800px;
+}
+
 .thoughtsSmall {
   display: inline-grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -634,6 +642,10 @@ a.bottomLinks {
     display: inline-grid;
     grid-template-columns: auto;
   }
+  .music {
+  display: inline-grid;
+  grid-template-columns: auto;
+}
   .post {
     max-width: 360px;
     min-height: 60px;
@@ -643,8 +655,7 @@ a.bottomLinks {
   .thoughtsSmall {
     display: grid;
     grid-template-columns: 185px 185px;
-    grid-template-rows: 1fr;
-    max-width: 414px;
+    grid-column-gap: 25px;
   }
   .postSmall {
     border: none;
