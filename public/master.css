@@ -365,6 +365,11 @@ template {
 	src: url("https://fonts.googleapis.com/css?family=Karla:200,400,700,900");
 }
 
+@font-face {
+	font-family: "JetBrains Mono";
+	src: url("./fonts/JetBrainsMono-regular.woff2");
+}
+
 html,
 body {
 	font-family: "Karla", sans-serif;
@@ -450,16 +455,11 @@ ul {
 	line-height: 1.15em;
 	max-width: 50vw;
 	font-size: 1.25em;
-	list-style-type: none;
 }
 
 .list-display li {
 	margin-bottom: 0.4rem;
 	font-size: 1.1rem;
-}
-
-.list-checkmarks {
-	padding-left: 1.5rem;
 }
 
 .list-checkmarks li {
@@ -665,6 +665,21 @@ a.bottomLinks {
 	h5 {
 		font-size: 1.2rem;
 	}
+	.list-checkmarks {
+		padding-left: none;
+		min-width: 75%;
+	}
+	pre {
+		display: inline-block;
+		background-color: #191919;
+		border-radius: 8px;
+		width: 400px !important;
+	}
+	code {
+		font-family: "JetBrains Mono";
+		color: #efefef;
+		font-size: 1rem;
+	}
 }
 
 @media only screen and (max-width: 414px) {
@@ -720,6 +735,10 @@ a.bottomLinks {
 	.footer {
 		padding-bottom: 1.5em;
 	}
+	.list-checkmarks li {
+		min-width: 85%;
+		padding-left: none;
+	}
 }
 
 @media only screen and (max-width: 320px) {
@@ -764,4 +783,18 @@ a.bottomLinks {
 	.subhead {
 		font-size: 1.15em;
 	}
+}
+
+pre {
+	display: inline-block;
+	background-color: #191919;
+	border-radius: 8px;
+	width: 40vw;
+	height: auto;
+}
+
+code {
+	font-family: "JetBrains Mono";
+	color: #efefef;
+	font-size: 1rem;
 }
