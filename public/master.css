@@ -49,10 +49,15 @@ hr {
  */
 
 pre {
-	font-family: monospace, monospace;
+	font-family: "JetBrains Mono", monospace;
 	/* 1 */
 	font-size: 1em;
 	/* 2 */
+	margin: none;
+	padding: none;
+	overflow: hidden;
+	text-align: left;
+	line-height: 1.25rem;
 }
 
 /* Text-level semantics
@@ -97,7 +102,7 @@ strong {
 code,
 kbd,
 samp {
-	font-family: monospace, monospace;
+	font-family: "JetBrains Mono", monospace;
 	/* 1 */
 	font-size: 1em;
 	/* 2 */
@@ -668,17 +673,20 @@ a.bottomLinks {
 	.list-checkmarks {
 		padding-left: none;
 		min-width: 75%;
+		margin-left: 0.5rem;
 	}
 	pre {
 		display: inline-block;
 		background-color: #191919;
 		border-radius: 8px;
 		width: 400px !important;
+		height: auto;
 	}
 	code {
 		font-family: "JetBrains Mono";
 		color: #efefef;
-		font-size: 1rem;
+		font-size: 0.75rem !important;
+		line-height: 1.25rem;
 	}
 }
 
@@ -789,7 +797,7 @@ pre {
 	display: inline-block;
 	background-color: #191919;
 	border-radius: 8px;
-	width: 40vw;
+	width: 800px;
 	height: auto;
 }
 
@@ -797,4 +805,28 @@ code {
 	font-family: "JetBrains Mono";
 	color: #efefef;
 	font-size: 1rem;
+}
+
+.json-attribute {
+	color: #59a8e4;
+}
+
+.json-boolean {
+	color: #b87aff;
+}
+
+.js-attribute {
+	color: #ff0071
+}
+
+.js-function {
+	color: #59a8e4;
+}
+
+.js-config {
+	color: #e7dc61;
+}
+
+.js-value {
+	color: #b87aff;
 }
