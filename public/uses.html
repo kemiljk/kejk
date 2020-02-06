@@ -86,7 +86,7 @@
                     <ul class="list-display list-checkmarks">
                     <li><strong>Languages: </strong>
 HTML5, CSS3/SASS/SCSS, a little JavaScript and an even smaller amount of PHP</li>
-<li><strong>Frameworks / Libraries / Tools: </strong>Material-UI, Git, Vue.js</li>
+<li><strong>Frameworks / Libraries / Tools: </strong>Material-UI/Veutify, Git, Vue.js</li>
                         <li><a href="https://www.adobe.com/products/xd.html" target="_new" class="green">VSCode</a> is
                             my editor of choice. I currently use the <a
                                 href="https://marketplace.visualstudio.com/items?itemName=bobsparadox.seti-black"
@@ -98,13 +98,13 @@ HTML5, CSS3/SASS/SCSS, a little JavaScript and an even smaller amount of PHP</li
                     <pre>
                         <code>
     {
-    <span class="json-attribute">"files.autoSave":</span> "onFocusChange",
-    <span class="json-attribute">"editor.fontFamily":</span> "JetBrains Mono",
-    <span class="json-attribute">"editor.fontLigatures":</span> <span class="json-boolean">true</span>,
-    <span class="json-attribute">"editor.formatOnPaste":</span> <span class="json-boolean">true</span>,
-    <span class="json-attribute">"editor.formatOnSave":</span> <span class="json-boolean">true</span>,
-    <span class="json-attribute">"auto-close-tag.SublimeText3Mode":</span> <span class="json-boolean">true</span>,
-    <span class="json-attribute">"workbench.colorCustomizations":</span> {
+    <span class="json-attribute">"files.autoSave"</span>: "onFocusChange",
+    <span class="json-attribute">"editor.fontFamily"</span>: "JetBrains Mono",
+    <span class="json-attribute">"editor.fontLigatures"</span>: <span class="json-boolean">true</span>,
+    <span class="json-attribute">"editor.formatOnPaste"</span>: <span class="json-boolean">true</span>,
+    <span class="json-attribute">"editor.formatOnSave"</span>: <span class="json-boolean">true</span>,
+    <span class="json-attribute">"auto-close-tag.SublimeText3Mode"</span>: <span class="json-boolean">true</span>,
+    <span class="json-attribute">"workbench.colorCustomizations"</span>: {
         "editor.background": "#050505",
         "sideBar.background": "#111",
         "terminal.background": "#050505",
@@ -112,24 +112,37 @@ HTML5, CSS3/SASS/SCSS, a little JavaScript and an even smaller amount of PHP</li
         "activityBar.background": "#050505",
         "tab.inactiveBackground": "#1d1d1d",
     },
-    <span class="json-attribute">"workbench.colorTheme":</span> "Seti Black",
-    <span class="json-attribute">"workbench.iconTheme":</span> "material-icon-theme",
-    <span class="json-attribute">"vsicons.dontShowNewVersionMessage":</span> <span class="json-boolean">true</span>,
-    <span class="json-attribute">"prettier.tabWidth":</span> <span class="json-boolean">4</span>,
-    <span class="json-attribute">"prettier.useTabs":</span> <span class="json-boolean">true</span>,
-    <span class="json-attribute">"editor.fontSize":</span> <span class="json-boolean">11</span>,
-    <span class="json-attribute">"workbench.editor.showTabs":</span> <span class="json-boolean">true</span>,
-    <span class="json-attribute">"editor.minimap.enabled":</span> <span class="json-boolean">false</span>,
-    <span class="json-attribute">"editor.codeLens":</span> <span class="json-boolean">false</span>,
-    <span class="json-attribute">"workbench.activityBar.visible":</span> <span class="json-boolean">false</span>,
-    <span class="json-attribute">"explorer.openEditors.visible":</span> <span class="json-boolean">0</span>,
+    <span class="json-attribute">"workbench.colorTheme"</span>: "Seti Black",
+    <span class="json-attribute">"workbench.iconTheme"</span>: "material-icon-theme",
+    <span class="json-attribute">"vsicons.dontShowNewVersionMessage"</span>: <span class="json-boolean">true</span>,
+    <span class="json-attribute">"prettier.tabWidth"</span>: <span class="json-boolean">4</span>,
+    <span class="json-attribute">"prettier.useTabs"</span>: <span class="json-boolean">true</span>,
+    <span class="json-attribute">"editor.fontSize"</span>: <span class="json-boolean">11</span>,
+    <span class="json-attribute">"workbench.editor.showTabs"</span>: <span class="json-boolean">true</span>,
+    <span class="json-attribute">"editor.minimap.enabled"</span>: <span class="json-boolean">false</span>,
+    <span class="json-attribute">"editor.codeLens"</span>: <span class="json-boolean">false</span>,
+    <span class="json-attribute">"workbench.activityBar.visible"</span>: <span class="json-boolean">false</span>,
+    <span class="json-attribute">"explorer.openEditors.visible"</span>: <span class="json-boolean">0</span>,
     <span class="json-attribute">"workbench.sideBar.location":</span> "right",
     <span class="json-attribute">"workbench.fontAliasing":</span> "antialiased",
-    <span class="json-attribute">"editor.lineHeight":</span> <span class="json-boolean">24</span>,
-    <span class="json-attribute">"editor.letterSpacing":</span> <span class="json-boolean">0</span>,
-    <span class="json-attribute">"editor.emptySelectionClipboard":</span> <span class="json-boolean">false</span>,
-    <span class="json-attribute">"editor.quickSuggestionsDelay":</span> <span class="json-boolean">0</span>,
-    <span class="json-attribute">"diffEditor.ignoreTrimWhitespace":</span> <span class="json-boolean">false</span>,
+    <span class="json-attribute">"editor.lineHeight"</span>: <span class="json-boolean">24</span>,
+    <span class="json-attribute">"editor.letterSpacing"</span>: <span class="json-boolean">0</span>,
+    <span class="json-attribute">"editor.emptySelectionClipboard"</span>: <span class="json-boolean">false</span>,
+    <span class="json-attribute">"editor.quickSuggestionsDelay"</span>: <span class="json-boolean">0</span>,
+    <span class="json-attribute">"editor.quickSuggestions"</span>: {
+        <span class="json-attribute">"strings"</span>: <span class="json-boolean">true</span>,
+    },
+    <span class="json-attribute">"editor.formatOnType"</span>: <span class="json-boolean">true</span>,
+    <span class="json-attribute">"vetur.grammar.customBlocks"</span>: {
+        <span class="json-attribute">"docs"</span>: "md"</span>,
+        <span class="json-attribute">"i18n"</span>: "json"</span>,
+        <span class="json-attribute">"preview-props"</span>: "json"</span>
+    },
+    <span class="json-attribute">"workbench.startupEditor"</span>: "newUntitledFile",
+    <span class="json-attribute">"[vue]"</span> {
+        <span class="json-attribute">"editor.defaultFormatter"</span>: "octref.vetur"
+    },
+    <span class="json-attribute">"editor.tabSize"</span>: <span class="json-boolean">4</span>,
     }</code>
                     </pre>
                     <ul class="list-display list-checkmarks">
